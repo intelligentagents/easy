@@ -1,10 +1,17 @@
 url: https://y7kim.github.io
-baseurl:
+baseurl: 
+basepic: /
 
 # Site settings
 title: EASY GROUP
 email: easy@ic.ufal.br
 description: "EASY GROUP"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: FED136
+  secondary: FEC503
+  secondary-dark: 333
 
 # Navigation
 navigationLinks:
@@ -12,13 +19,7 @@ navigationLinks:
  - {permalink: "/members/", text: "Members"}
  - {permalink: "/projects/", text: "Projects"}
  - {permalink: "/partners/", text: "Partners"}
- - {permalink: "/contacts/", text: "Contacts"}
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: FED136
-  secondary: FEC503
-  secondary-dark: 333
+ - {permalink: "/contact/", text: "Contact"}
 
 # Team names, titles and social links
 people:
