@@ -48,7 +48,7 @@ people:
       url: #
 
 - name: Márcio de Medeiros Ribeiro
-  pic: 1
+  pic: 4
   position: Doctor
   social:
     - title: twitter
@@ -59,7 +59,7 @@ people:
       url: #
 
 - name: Thiago Damasceno Cordeiro
-  pic: 1
+  pic: 5
   position: Master
   social:
     - title: twitter
@@ -70,7 +70,7 @@ people:
       url: #
 
 - name: Tiago Figueiredo Vieira
-  pic: 1
+  pic: 6
   position: Doctor
   social:
     - title: twitter
@@ -90,3 +90,11 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ - {permalink: "/members/", text: "Members"}
+ - {permalink: "/projects/", text: "Projects"}
+ - {permalink: "/partners/", text: "Partners"}
+ - {permalink: "/contacts/", text: "Contacts"}
