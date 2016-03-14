@@ -171,7 +171,6 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default {
-    border-color: transparent;
     background-color: #222;
 }
 
@@ -277,11 +276,11 @@ header {
 }
 
 header .banner {
-    height: 300px;
-    background-image: url(img/bg1.jpg)!important;
+    height: 350px;
+    background-color: #837fd0!important;
+    text-align: left;
+   
  }
-
-
 
 header .intro-text {
     padding-top: 100px;
@@ -289,7 +288,7 @@ header .intro-text {
 }
 
 header .banner .intro-text {
-    padding-top: 100px;
+    padding-top: 180px;
     padding-bottom: 50px;
 }
 
@@ -308,6 +307,14 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+}
+
+header .banner .intro-text .intro-heading {
+    margin-bottom: 10px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
 }
 
 @media(min-width:768px) {
@@ -667,7 +674,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #eee;
     background-image: url(img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
