@@ -177,6 +177,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.color.primary }};
+
 }
 
 .navbar-default .navbar-brand:hover,
@@ -231,6 +232,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
+   
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -238,6 +240,7 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+
     }
 
     .navbar-default .navbar-brand {
@@ -249,16 +252,24 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
+
     }
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #837fd0!important;
+        background-color: black!important;
+        opacity: 0.9;
+
+    }
+    .navbar-shrink{
+        color: black!important; 
+
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
 }
 
 header {
@@ -274,11 +285,18 @@ header {
     -o-background-size: cover;
 }
 
+.logo1 {
+    display: inline;  
+}
+
+.logo {
+    display: none;
+}
+
 header .banner {
     height: 350px;
-    background-color: #837fd0!important;
-    text-align: left;
-   
+    /*background-color: #837fd0!important;
+*/    text-align: left;
  }
 
 header .intro-text {
@@ -320,6 +338,15 @@ header .banner .intro-text .intro-heading {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
+
+    }
+
+    .logo {
+        display: inline;  
+    }   
+
+    .logo1 {
+        display: none ;  
     }
 
     header .intro-text .intro-lead-in {
@@ -328,6 +355,7 @@ header .banner .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+
     }
 
     header .intro-text .intro-heading {
@@ -337,17 +365,20 @@ header .banner .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+
     }
 }
 
 section {
     padding: 100px 0;
+
 }
 
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+
 }
 
 section h3.section-subheading {
