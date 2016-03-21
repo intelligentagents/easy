@@ -15,11 +15,11 @@ color:
 
 # Navigation
 navigationLinks:
- - {permalink: "/", text: "Home"}
- - {permalink: "/members/", text: "Members"}
- - {permalink: "/projects/", text: "Projects"}
- - {permalink: "/partners/", text: "Partners"}
- - {permalink: "/contact/", text: "Contact"}
+ - {permalink: "/easy/", text: "Home"}
+ - {permalink: "/easy/members/", text: "Members"}
+ - {permalink: "/easy/projects/", text: "Projects"}
+ - {permalink: "/easy/partners/", text: "Partners"}
+ - {permalink: "/easy/contact/", text: "Contact"}
 
 # Team names, titles and social links
 people:
